@@ -1,0 +1,29 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "Litecash",
+	"Description": "Process management and API interop for the Litecash cryptocurrency suite",
+	"Category": "Cryptocurrency",
+	"CreatedBy": "Litecash",
+	"CreatedByURL": "https://lite-cash.com",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EngineVersion": "4.27.0",
+	"CanContainContent": true,
+	"IsBetaVersion": true,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "Litecash",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"WhitelistPlatforms": [
+				"Win64",
+				"Win32",
+				"Linux"
+			]
+		}
+	]
+}
